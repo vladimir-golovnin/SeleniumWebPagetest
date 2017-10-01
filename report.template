@@ -1,0 +1,6 @@
+<body>
+<p>Test is finished with results:</p>
+<#list results as result>
+<p>Load time for ${result.url}: ${result.loadTime}  <a href="cid:${result.screenshot.name}">screenshot</a></p>
+</#list>
+</body>

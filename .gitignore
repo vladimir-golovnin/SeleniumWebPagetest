@@ -1,0 +1,8 @@
+*.class
+*.jar
+*.bat
+
+*.iml
+*/target
+*/*/target/
+.idea/
