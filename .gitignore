@@ -3,6 +3,5 @@
 *.bat
 
 *.iml
-*/target
-*/*/target/
 .idea/
+target/
