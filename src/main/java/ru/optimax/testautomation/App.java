@@ -35,7 +35,7 @@ public class App
                     try {
                         reportsSender.sendReport(testResults);
                     } catch (MessagingException | FileNotFoundException e) {
-                        System.out.println(e.getMessage());
+                        System.out.println("Unable to sent report: " + e.getMessage());
                     }
                 } catch (FileNotFoundException e) {
                     System.out.println("Unable to open mail properties file");
